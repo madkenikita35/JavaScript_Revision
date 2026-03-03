@@ -5,3 +5,6 @@ console.log(arr); // [1,2,3]
 
 arr.pop(); // remove last
 console.log(arr); // [1,2]
+
+arr.unshift(6);
+console.log(arr);
