@@ -6,8 +6,8 @@ const found = fruits.find(f => f.startsWith('m')); // 'mango'
 // findIndex(): Returns the index of that element
 const index = fruits.findIndex(f => f === 'banana'); // 1
 
-// // includes(): Returns true/false
-// const hasApple = fruits.includes('apple'); // true
+// includes(): Returns true/false
+const hasApple = fruits.includes('apple'); // true
 
 // // some(): Returns true if AT LEAST ONE item matches
 // const hasLongName = fruits.some(f => f.length > 5); // true (banana)
