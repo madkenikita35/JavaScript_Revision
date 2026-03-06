@@ -8,4 +8,4 @@ const messy = [1, [2, [3]]];
 console.log(messy.flat(2)); // [1, 2, 3]
 
 // // slice(): Copies a portion of an array (non-mutating)
-// const part = fruits.slice(0, 2); // ['apple', 'banana']
+const part = fruits.slice(0, 2); // ['apple', 'banana']
