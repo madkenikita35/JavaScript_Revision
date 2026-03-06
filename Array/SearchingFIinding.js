@@ -12,5 +12,5 @@ const hasApple = fruits.includes('apple'); // true
 // some(): Returns true if AT LEAST ONE item matches
 const hasLongName = fruits.some(f => f.length > 5); // true (banana)
 
-// // every(): Returns true if ALL items match
-// const allLongNames = fruits.every(f => f.length > 2); // true
+// every(): Returns true if ALL items match
+const allLongNames = fruits.every(f => f.length > 2); // true
