@@ -1,14 +1,14 @@
 const cart = [
   { item: 'Bread', stock: 10 },
-  { item: 'Milk', stock: 0 }, // Out of stock!
+  { item: 'Milk', stock: 0 }, 
   { item: 'Eggs', stock: 12 }
 ];
 
 // Check if EVERYTHING is in stock
-const canShip = cart.every(product => product.stock > 0); // false
+const canShip = cart.every(product => product.stock > 0);
 
 // Check if AT LEAST ONE item is out of stock
-const hasAlert = cart.some(product => product.stock === 0); // true
+const hasAlert = cart.some(product => product.stock === 0); 
 
 // Find the first out-of-stock item
-const brokenItem = cart.find(product => product.stock === 0); // { item: 'Milk', ... }
+const brokenItem = cart.find(product => product.stock === 0); 
