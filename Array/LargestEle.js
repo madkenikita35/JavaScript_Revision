@@ -1,7 +1,7 @@
 let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 //First Method
-// let largest = Math.max(...a);
+let largest1 = Math.max(...a);
 
 //Second Method
 let largest = a.reduce((max, current) => {
