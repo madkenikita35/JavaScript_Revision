@@ -8,3 +8,4 @@ let largest = a.reduce((max, current) => {
   return current > max ? current : max;
 }, a[0]);
 console.log(largest);
+console.log("First Way", largest1);
